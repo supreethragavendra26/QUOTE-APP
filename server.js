@@ -1,6 +1,6 @@
 import http from "http";
+const PORT = process.env.PORT || 2001; 
 
-const PORT = 2001;
 
 async function getJsonData(url) {
   try {
